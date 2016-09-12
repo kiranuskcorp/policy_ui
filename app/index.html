@@ -1,0 +1,33 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>LTS Policy</title>
+		<!-- Stylesheets --> 
+		<link rel="stylesheet" type="text/css" href="./bower_components/angular-material/angular-material.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+		<link rel="stylesheet" type="text/css" href="./css/app.css">
+		<!-- To implement HTML5 Mode URL -->
+		<base href="/">
+	</head>
+ 
+	<body data-ng-app="PolicyApplication" ng-cloak>
+		<div class="container">
+			<!-- why diff html for header and nav .. combine ? -->
+			<!-- Views -->
+			<div data-ui-view="header"></div>
+			<div data-ui-view="navbar"></div>	
+			<div data-ui-view="content"></div>	
+		</div>
+		<!-- Scripts -->
+		<script src="/bower_components/angular/angular.js"></script>
+		<script src="/bower_components/angular-animate/angular-animate.min.js"></script>			
+		<script src="/bower_components/angular-messages/angular-messages.min.js"></script>
+		<script src="/bower_components/angular-aria/angular-aria.min.js"></script>	
+		<script src="/bower_components/angular-material/angular-material.min.js"></script>
+		<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script type="text/javascript" src="/js/app.js"></script>
+	</body>
+</html>

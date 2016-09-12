@@ -1,0 +1,11 @@
+{
+    "elements": {},
+    "attributes": {
+        "layout": {
+            "context": "header"
+        },
+        "flex": {
+            "context": "div"
+        }
+    }
+}

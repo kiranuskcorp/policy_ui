@@ -1,0 +1,1 @@
+!function(){"use strict";function t($scope){$scope.password="",$scope.grade=function(){var t=$scope.password.length;t>8?$scope.strength="strong":t>3?$scope.strength="medium":$scope.strength="weak"}}angular.module("PolicyApplication").controller("PasswordController",t)}();
